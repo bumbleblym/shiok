@@ -13,10 +13,12 @@
     "url": "https://github.com/bumbleblym/shiok.git"
   },
   "scripts": {
-    "lint": "eslint --fix .",
+    "lint": "esw",
+    "lint:fix": "npm run lint -s -- --fix",
+    "lint:watch": "npm run lint -s -- -w",
     "test": "mocha \"src/**/*.spec.js\"",
     "test:watch": "npm t -- -w",
-    "cover": "nyc npm t && nyc report --reporter=lcov",
+    "cover": "npm run lint -s && nyc npm t && nyc report --reporter=lcov",
     "check-coverage": "nyc check-coverage",
     "report-coverage": "cat ./coverage/lcov.info | codecov",
     "commit": "git-cz",
@@ -47,6 +49,7 @@
     "cz-conventional-changelog": "^1.1.6",
     "eslint": "^2.8.0",
     "eslint-config-google": "^0.5.0",
+    "eslint-watch": "^2.1.10",
     "ghooks": "^1.2.1",
     "mocha": "^2.4.5",
     "nyc": "^6.4.0",
