@@ -8,6 +8,6 @@ module.exports = {
     expect: true
   },
   rules: {
-    'no-unused-expressions': 'off'
+    'no-unused-expressions': 0
   }
 };
