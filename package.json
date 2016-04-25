@@ -20,7 +20,7 @@
     "test:watch": "npm t -- -w",
     "cover": "npm run lint -s && nyc npm t && nyc report --reporter=lcov",
     "check-coverage": "nyc check-coverage",
-    "report-coverage": "cat ./coverage/lcov.info | codecov",
+    "report-coverage": "cat coverage/lcov.info | codecov",
     "commit": "git-cz",
     "semantic-release": "semantic-release pre && semantic-release post"
   },
