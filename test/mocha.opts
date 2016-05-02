@@ -1,4 +1,4 @@
 --reporter spec
---require ./test/index
+--require test/index
 --compilers js:babel-register
 --recursive
