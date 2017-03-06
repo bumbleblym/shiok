@@ -1,5 +1,7 @@
 # shiok
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/bumbleblym/shiok.svg)](https://greenkeeper.io/)
+
 
 [![Travis CI](https://img.shields.io/travis/bumbleblym/shiok.svg)](https://travis-ci.org/bumbleblym/shiok)
 [![Codecov](https://img.shields.io/codecov/c/github/bumbleblym/shiok.svg)](https://codecov.io/github/bumbleblym/shiok)
